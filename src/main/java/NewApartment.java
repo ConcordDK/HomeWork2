@@ -1,13 +1,13 @@
 public class NewApartment {
     public static void main(String[] args) {
 
-        int apartmentcost = 3000000;
-        System.out.println("Стоимость квартиры " + apartmentcost);
+        int ApartmentCost = 3000000;
+        System.out.println("Стоимость квартиры " + ApartmentCost);
 
-        double aninitialfee = 27.9;
-        System.out.println("Размер первоначального взноса, в % " + aninitialfee);
+        double AnInitialFee = 27.9;
+        System.out.println("Размер первоначального взноса, в % " + AnInitialFee);
 
-        double downpaymentamount = (apartmentcost * aninitialfee) / 100;
-        System.out.println("Сумма первоначального взноса, в рублях: "+downpaymentamount);
+        double DownPaymentAmount = (ApartmentCost * AnInitialFee) / 100;
+        System.out.println("Сумма первоначального взноса, в рублях: " + DownPaymentAmount);
     }
 }

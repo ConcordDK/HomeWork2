@@ -2,13 +2,13 @@ public class Buratino {
 
     public static void main(String[] args) {
 
-        int appleburatino = 20;
-        System.out.println("Столько было яблок у Буратино: " + appleburatino);
+        int AppleBuratino = 20;
+        System.out.println("Столько было яблок у Буратино: " + AppleBuratino);
 
-        int applekarabas = 15;
-        System.out.println("Столько яблок забрал Карабас Барабас у Буратино: " + applekarabas);
+        int AppleKarabas = 15;
+        System.out.println("Столько яблок забрал Карабас Барабас у Буратино: " + AppleKarabas);
 
-        int dif = appleburatino - applekarabas;
+        int dif = AppleBuratino - AppleKarabas;
         System.out.println("Столько яблок осталось у Буратино, после прихода Карабаса Барабаса: " + dif);
     }
 }

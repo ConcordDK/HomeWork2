@@ -2,13 +2,13 @@ public class MilkyWay {
 
     public static void main(String[] args) {
 
-        int ageoftheuniverse = 130000000;
-        System.out.println("Возраст вселенной: " + ageoftheuniverse);
+        int AgeOfTheUniverse = 130000000;
+        System.out.println("Возраст вселенной: " + AgeOfTheUniverse);
 
-        int ageofthehumanspecies = 100000;
-        System.out.println("Возраст человеческого вида: " + ageofthehumanspecies);
+        int AgeOfTheHumanSpecies = 100000;
+        System.out.println("Возраст человеческого вида: " + AgeOfTheHumanSpecies);
 
-        int difference = ageoftheuniverse / ageofthehumanspecies;
+        int difference = AgeOfTheUniverse / AgeOfTheHumanSpecies;
         System.out.println("Во сколько раз Вселенная старше людей: " + difference);
     }
 }

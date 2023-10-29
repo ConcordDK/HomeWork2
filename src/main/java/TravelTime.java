@@ -1,20 +1,20 @@
 public class TravelTime {
     public static void main(String[] args) {
 
-        int distancehometooffice = 3;
-        System.out.println("Расстояние от дома до офиса, км: " + distancehometooffice);
+        int DistanceHomeToOffice = 3;
+        System.out.println("Расстояние от дома до офиса, км: " + DistanceHomeToOffice);
 
-        double averagetaxispeed = 20;
-        System.out.println("Средняя скорость такси, км/ч: " + averagetaxispeed);
+        double AverageTaxiSpeed = 20;
+        System.out.println("Средняя скорость такси, км/ч: " + AverageTaxiSpeed);
 
-        double normaltraveltime = distancehometooffice / averagetaxispeed;
-        System.out.println("Время затраченное на поездку от дома до офиса, без коэффициента пробок: " + normaltraveltime);
+        double NormalTravelTime = DistanceHomeToOffice / AverageTaxiSpeed;
+        System.out.println("Время затраченное на поездку от дома до офиса, без коэффициента пробок: " + NormalTravelTime);
 
-        double coefficientroadproblemm = 1.5;
-        System.out.println("Коэффициент заторов на дороге: "+ coefficientroadproblemm);
+        double CoefficientRoadProblemm = 1.5;
+        System.out.println("Коэффициент заторов на дороге: " + CoefficientRoadProblemm);
 
-        double hardtraveltime = normaltraveltime * coefficientroadproblemm;
-        System.out.println("Время затраченное на поездку от дома до офиса, с учетом коэффициента пробок: " + hardtraveltime);
+        double HardTravelTime = NormalTravelTime * CoefficientRoadProblemm;
+        System.out.println("Время затраченное на поездку от дома до офиса, с учетом коэффициента пробок: " + HardTravelTime);
 
 
     }
