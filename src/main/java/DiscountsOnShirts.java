@@ -33,9 +33,7 @@ public class DiscountsOnShirts {
         System.out.println("Количество сэкономленных денег, если рубашки куплены со скидкой: " + TotalSaleShirts);
 
         double FreeShirts = TotalSaleShirts / OneShirtsNoDiscount;
-        System.out.println("Колличество рубашек полученные бесплатно, благодаря полученной скидке: "+FreeShirts);
-
-
+        System.out.println("Колличество рубашек полученные бесплатно, благодаря полученной скидке: " + FreeShirts);
 
 
     }
