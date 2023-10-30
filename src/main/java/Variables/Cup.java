@@ -1,6 +1,7 @@
+package Variables;
+
 public class Cup {
     public static void main(String[] args) {
-
         int volume = 250;
         System.out.println("Объем стакана: " + volume);
 
