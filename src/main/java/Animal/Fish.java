@@ -1,7 +1,8 @@
 package Animal;
-public class Fish extends Animal{
+
+public class Fish extends Animal {
     @Override
-    public void move(){
+    public void move() {
         System.out.println("Я поплыла");
     }
 }

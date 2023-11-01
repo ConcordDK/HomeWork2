@@ -1,3 +1,5 @@
+package GetAndSet;
+
 public class GetAndSet {
     private int secretNumber = 10000;
 

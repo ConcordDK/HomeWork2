@@ -1,7 +1,6 @@
 package Variables;
 
 public class Buratino {
-
     public static void main(String[] args) {
         int appleBuratino = 20;
         System.out.println("Столько было яблок у Буратино: " + appleBuratino);

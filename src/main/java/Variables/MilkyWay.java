@@ -3,7 +3,6 @@ package Variables;
 public class MilkyWay {
 
     public static void main(String[] args) {
-
         int ageOfTheUniverse = 130000000;
         System.out.println("Возраст вселенной: " + ageOfTheUniverse);
 
